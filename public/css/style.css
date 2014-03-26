@@ -194,9 +194,9 @@ color: #FFF;
 }
 
 #third{
-	background: url(images/thirdBG.jpg) 50% 0 no-repeat fixed;
+	background: url(images/thirdBG.jpg) 50% 0  fixed;
 	color: white;
-	height: 731px;
+	height: 9713px;
 	padding: 0;	
 }
 #third ul>li{
@@ -204,12 +204,18 @@ color: #FFF;
 	
 	}
 
-#fifth{
-	background: #0056A0;
-	height: 50px;
+#fourth{
+	background: url(images/secondBG.jpg) 50% 0 fixed;
+	color: white;
+	height: 670px;
 	margin: 0 auto;
-	padding: 40px 0 0 0;
+	overflow: hidden;
+	padding: 0;
 }
+#fourth p {
+	font-size:13px;
+}
+
 
 .story{
 	margin: 0 auto;

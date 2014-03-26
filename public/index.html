@@ -125,19 +125,474 @@
 		<div class="story">
 	    	<div class="widecontent">
 	        	<h1>CSS</h1>
-	           <p>
-                  Css Goes here
-               </p>
+	           <p>@charset &quot;utf-8&quot;;<br>
+               /* CSS Document */</p>
+	           <p>@font-face {<br>
+	             font-family: 'ProximaNovaThThin';<br>
+	             src: url('fonts/ProximaNova-Thin-webfont.eot');<br>
+	             src: url('fonts/ProximaNova-Thin-webfont.eot?#iefix') format('embedded-opentype'),<br>
+	             url('fonts/ProximaNova-Thin-webfont.woff') format('woff'),<br>
+	             url('fonts/ProximaNova-Thin-webfont.ttf') format('truetype'),<br>
+	             url('fonts/ProximaNova-Thin-webfont.svg#ProximaNovaThThin') format('svg');<br>
+	             font-weight: normal;<br>
+	             font-style: normal;</p>
+	           <p>}</p>
+	           <p>@font-face {<br>
+	             font-family: 'ProximaNovaLtLight';<br>
+	             src: url('fonts/ProximaNova-Light-webfont.eot');<br>
+	             src: url('fonts/ProximaNova-Light-webfont.eot?#iefix') format('embedded-opentype'),<br>
+	             url('fonts/ProximaNova-Light-webfont.woff') format('woff'),<br>
+	             url('fonts/ProximaNova-Light-webfont.ttf') format('truetype'),<br>
+	             url('fonts/ProximaNova-Light-webfont.svg#ProximaNovaLtLight') format('svg');<br>
+	             font-weight: normal;<br>
+	             font-style: normal;</p>
+	           <p>}<br>
+              </p>
+	           <p>@font-face {<br>
+	             font-family: 'ProximaNova-Reg';<br>
+	             src: url('fonts/ProximaNova-Reg-webfont.eot');<br>
+	             src: url('fonts/ProximaNova-Reg-webfont.eot?#iefix') format('embedded-opentype'),<br>
+	             url('fonts/ProximaNova-Reg-webfont.woff') format('woff'),<br>
+	             url('fonts/ProximaNova-Reg-webfont.ttf') format('truetype'),<br>
+	             url('fonts/ProximaNova-Reg-webfont.svg#ProximaNovaLtLight') format('svg');<br>
+	             font-weight: normal;<br>
+	             font-style: normal;</p>
+	           <p>}</p>
+	           <p>&nbsp;</p>
+	           <p>@font-face {<br>
+	             font-family: 'ProximaNovaRgBold';<br>
+	             src: url('fonts/ProximaNova-Bold-webfont.eot');<br>
+	             src: url('fonts/ProximaNova-Bold-webfont.eot?#iefix') format('embedded-opentype'),<br>
+	             url('fonts/ProximaNova-Bold-webfont.woff') format('woff'),<br>
+	             url('fonts/ProximaNova-Bold-webfont.ttf') format('truetype'),<br>
+	             url('fonts/ProximaNova-Bold-webfont.svg#ProximaNovaRgBold') format('svg');<br>
+	             font-weight: normal;<br>
+	             font-style: normal;</p>
+	           <p>}</p>
+	           <p>@font-face {<br>
+	             font-family: 'ProximaNovaThExtrabold';<br>
+	             src: url('fonts/ProximaNova-Xbold-webfont.eot');<br>
+	             src: url('fonts/ProximaNova-Xbold-webfont.eot?#iefix') format('embedded-opentype'),<br>
+	             url('fonts/ProximaNova-Xbold-webfont.woff') format('woff'),<br>
+	             url('fonts/ProximaNova-Xbold-webfont.ttf') format('truetype'),<br>
+	             url('fonts/ProximaNova-Xbold-webfont.svg#ProximaNovaThExtrabold') format('svg');<br>
+	             font-weight: normal;<br>
+	             font-style: normal;</p>
+	           <p>}</p>
+	           <p>body{<br>
+	             margin: 0;<br>
+	             min-width: 980px;<br>
+	             padding: 0;<br>
+	             }</p>
+	           <p>p{<br>
+	             margin: 0 0 20px 0; <br>
+	             }</p>
+	           <p>p, ul{<br>
+	             font-family:&quot;ProximaNovaLtLight&quot;;<br>
+	             font-weight:200;<br>
+	             font-style:normal;<br>
+	             color:#C3F1FF;<br>
+	             }</p>
+	           <p>ul{<br>
+	             list-style-type: none;<br>
+	             list-style-position: inside;<br>
+	             list-style-image: url('images/bullets-tick.png');<br>
+	             }</p>
+	           <p>.story ul{<br>
+	             font-size: 22px;<br>
+	             line-height: 45px;<br>
+	             }<br>
+	             img{<br>
+	             border: 0;<br>
+	             }</p>
+	           <p>h1, #pixels{<br>
+	             font-family: &quot;ProximaNovaRgBold&quot;;<br>
+	             font-size-adjust: 0.40;<br>
+	             font-weight: 700;<br>
+	             font-style: normal;<br>
+	             font-size: 51px;<br>
+	             line-height: 48px;<br>
+	             }</p>
+	           <p>h2{<br>
+	             font-family:&quot;Beau Sans Pro Book&quot;, Verdana, sans-serif;<br>
+	             font-size-adjust:0.531;<br>
+	             font-weight:500;<br>
+	             font-style:normal;<br>
+	             }</p>
+	           <p>#header h1, #pixels{<br>
+	             color: #48941A;<br>
+	             }</p>
+	           <p>.float-left{<br>
+	             float: left; <br>
+	             margin: 0 0 0 20px;<br>
+	             }</p>
+	           <p>.float-right{<br>
+	             float: right;<br>
+	             margin: 0 20px 0 0;<br>
+  <br>
+	             }</p>
+	           <p>.center{<br>
+	             font-size: 2.5em;<br>
+	             padding: 80px 0 0 0;<br>
+	             text-align: center;<br>
+	             }</p>
+	           <p>#nav{<br>
+	             list-style: none;<br>
+	             position: fixed;<br>
+	             right: 20px;<br>
+	             }</p>
+	           <p>#nav li{<br>
+	             margin: 0 0 15px 0; <br>
+	             }</p>
+	           <p>#header, #intro, #second{<br>
+	             width: 100%;<br>
+	             }</p>
+	           <p>#intro{<br>
+	             background:url(images/firstBG.jpg) 50% 0 no-repeat fixed;<br>
+	             color: white;<br>
+	             height:600px;<br>
+	             margin: 0 auto;<br>
+	             padding: 0;<br>
+	             }</p>
+	           <p>#intro h1{<br>
+	             color: #FFF;<br>
+	             }</p>
+	           <p>#second{<br>
+	             background: url(images/secondBG.jpg) 50% 0 no-repeat fixed;<br>
+	             color: white;<br>
+	             height: 670px;<br>
+	             margin: 0 auto;<br>
+	             overflow: hidden;<br>
+	             padding: 0;<br>
+	             }<br>
+	             #secon p {<br>
+	             font-size:13px;<br>
+	             }</p>
+	           <p>#second .bg{<br>
+	             background: url(images/trainers.png) 50% 0 no-repeat fixed;<br>
+	             height: 670px;<br>
+	             margin: 0 auto;<br>
+	             padding: 0;<br>
+	             position: absolute;<br>
+	             width: 380px;<br>
+	             z-index: 200;<br>
+	             left: -8px;<br>
+	             top: 778px;<br>
+	             }</p>
+	           <p>#third{<br>
+	             background: url(images/thirdBG.jpg) 50% 0 no-repeat fixed;<br>
+	             color: white;<br>
+	             height: 731px;<br>
+	             padding: 0; <br>
+	             }<br>
+	             #third ul&gt;li{<br>
+	             font-size:15px;<br>
+  <br>
+	             }</p>
+	           <p>#fifth{<br>
+	             background: #0056A0;<br>
+	             height: 50px;<br>
+	             margin: 0 auto;<br>
+	             padding: 40px 0 0 0;<br>
+	             }</p>
+	           <p>.story{<br>
+	             margin: 0 auto;<br>
+	             min-width: 980px;<br>
+	             /*overflow: auto;*/<br>
+	             width: 980px;<br>
+	             }</p>
+	           <p>.story .float-left, .story .float-right{<br>
+	             padding: 100px 0 0 0;<br>
+	             position: relative;<br>
+	             width: 454px; <br>
+	             }</p>
+	           <p>.widecontent{<br>
+	             position: relative;<br>
+	             width: 560px; <br>
+	             padding: 39px 40px 37px 40px;<br>
+	             background-color: rgba(0, 0, 0, 0.5);<br>
+  <br>
+	             }<br>
+	             .widecontent ul&gt;li{<br>
+	             margin-bottom:10px<br>
+	             }</p>
+	           <p>.widecontent ul{<br>
+	             color:#FFF;<br>
+	             line-height: 22px;<br>
+	             }<br>
+	             .widecontent ul a{<br>
+	             color: #6EBFFF;<br>
+	             font-weight: bold;<br>
+	             }</p>
+	           <p>.intro-text{<br>
+	             width: 718px;<br>
+	             margin: auto;<br>
+	             text-align: center;<br>
+	             padding: 79px 40px 37px 40px;<br>
+	             background-color: rgba(0, 0, 0, 0.5);<br>
+	             }</p>
+	           <p>.bottom-options a, .bottom-options a:link, .bottom-options a:visited, .bottom-options a.active, .bottom-options a:hover{<br>
+	             font-family: 'ProximaNovaRgBold';<br>
+	             text-decoration:none;<br>
+	             font-size:17px;<br>
+	             color: black;<br>
+	             }</p>
+	           <p>.art-button<br>
+	             {<br>
+	             border: 0;<br>
+	             border-collapse: separate;<br>
+	             -webkit-background-origin: border !important;<br>
+	             -moz-background-origin: border !important;<br>
+	             background-origin: border-box !important;<br>
+	             background: #7DC148;<br>
+	             -webkit-border-radius: 3px;<br>
+	             -moz-border-radius: 3px;<br>
+	             border-radius: 3px;<br>
+	             padding: 7px 21px;<br>
+	             margin-right: 20px!important;<br>
+	             height: 24px;<br>
+	             font-size: 26px !important;<br>
+	             font-family: 'ProximaNovaRgBold';<br>
+	             color: #FFF;<br>
+	             text-decoration: none;<br>
+	             -khtml-box-shadow: rgba(0,0,0,0.5) 2px 3px 6px;<br>
+	             -moz-box-shadow: rgba(0,0,0,0.5) 2px 3px 6px;<br>
+	             box-shadow: rgba(0, 0, 0, 0.5) 2px 3px 6px;<br>
+  <br>
+	             }<br>
+              </p>
+	           <p>.header-main {<br>
+	             position: fixed!important;<br>
+	             background-color: #0055A4;<br>
+	             background-color: rgba(0, 85, 164, 0.8);<br>
+	             -webkit-transform-style: preserve-3d;<br>
+	             -moz-transform-style: preserve-3d;<br>
+	             -ms-transform-style: preserve-3d;<br>
+	             -o-transform-style: preserve-3d;<br>
+	             transform-style: preserve-3d;<br>
+	             left: 0;<br>
+	             padding-bottom: 0.8em;<br>
+	             padding-top: 0.2em;<br>
+	             position: relative;<br>
+	             text-align: right;<br>
+	             top: 0;<br>
+	             width: 100%;<br>
+	             z-index: 1000;<br>
+	             }</p>
+	           <p>.nav-header .nav-list {<br>
+	             list-style: none;<br>
+	             margin: 0;<br>
+	             padding: 0;<br>
+	             }</p>
+	           <p>input[type=&quot;text&quot;], input[type=&quot;submit&quot;], select { <br>
+	             font-family: &quot;ProximaNovaRgBold&quot;;<br>
+	             font-size: 28px;<br>
+	             padding-left: 9px;<br>
+	             border:none; <br>
+	             -webkit-border-radius:5px; <br>
+	             -moz-border-radius:5px; <br>
+	             border-radius:5px; <br>
+	             -webkit-box-shadow:0 0 5px #666 inset; <br>
+	             -moz-box-shadow:0 0 5px #666 inset; <br>
+	             box-shadow:0 0 5px #666 inset; <br>
+	             height:50px; <br>
+	             line-height:25px; <br>
+	             width:200px; <br>
+	             text-indent:5px; <br>
+	             } <br>
+	             input:focus { outline:none; }</p>
+	           <p>.nav-header .nav-item .nav-link {<br>
+	             font-family: &quot;ProximaNovaRgBold&quot;;<br>
+	             color: #FFF;<br>
+	             display: inline-block;<br>
+	             font-weight: 600;<br>
+	             padding: 1.2em 2.375em;<br>
+	             }<br>
+	             .nav-header .nav-item {<br>
+	             margin: .5em 0 .5em 1em;<br>
+	             }<br>
+	             nav .nav-item {<br>
+	             display: inline-block;<br>
+	             }<br>
+	             a {<br>
+	             <br>
+	             text-decoration: none;<br>
+	             }</p>
+	           <p>.header-main .logo {<br>
+	             float: left;<br>
+	             margin-top: .5em;<br>
+	             }<br>
+	             .logo {<br>
+	             font-family: &quot;ProximaNovaRgBold&quot;;<br>
+	             color: #FFF;<br>
+	             font-weight: 600;<br>
+	             font-size: 30px;</p>
+	           <p>height: 40px;<br>
+	             display: block;<br>
+	             margin: 0;<br>
+	             padding: 0;<br>
+	             }<br>
+	             .container {<br>
+	             width: 970px;<br>
+	             padding: 0;<br>
+	             margin-right: auto;<br>
+	             margin-left: auto;<br>
+	             max-width: 1330px;<br>
+	             }<br>
+	             .container:after {<br>
+	             clear: both;<br>
+	             }<br>
+	             .content_centre2 input, .content_centre2 select{<br>
+	             height: 30px;<br>
+	             font-size: 18px;</p>
+	           <p>}</p>
+	           <p>.content_centre2 {</p>
+	           <p>text-align:left;<br>
+	             }</p>
+	           <p>.content_centre2 label {<br>
+	             width: 167px;<br>
+	             display: block;<br>
+	             float: left;<br>
+	             text-align: right;<br>
+	             margin: 5px 13px 5px 5px;<br>
+	             }</p>
+	           <p>.content_centre2 p{<br>
+	             margin: 0 0 7px 0;<br>
+	             }<br>
+	             input[type=&quot;checkbox&quot;] {<br>
+	             height: 14px;<br>
+	             width: 16px;<br>
+	             }<br>
+              </p>
+	           <p>/*CALCULATOOR*/<br>
+              </p>
+	           <p>#calculator {<br>
+	             width: 325px;<br>
+	             height: auto;<br>
+	             margin: 100px auto;<br>
+	             padding: 20px 20px 9px;<br>
+	             background: #9DD2EA;<br>
+	             background: linear-gradient(#020C79, #357942);<br>
+	             border-radius: 3px;<br>
+	             box-shadow: 0px 4px #631F83, 0px 10px 15px rgba(0, 0, 0, 0.2);<br>
+	             font-family: 'ProximaNovaRgBold';<br>
+	             font-size:24px;</p>
+	           <p>}<br>
+              </p>
+	           <p>/* Top portion */<br>
+	             .top span.clear {<br>
+	             float: left;<br>
+	             }</p>
+	           <p>/* Inset shadow on the screen to create indent */<br>
+	             .top .screen {<br>
+	             height: 40px;<br>
+	             width: 212px;<br>
+  <br>
+	             float: right;<br>
+  <br>
+	             padding: 0 10px;<br>
+  <br>
+	             background: rgba(0, 0, 0, 0.2);<br>
+	             border-radius: 3px;<br>
+	             box-shadow: inset 0px 4px rgba(0, 0, 0, 0.2);<br>
+  <br>
+	             /* Typography */<br>
+	             font-size: 17px;<br>
+	             line-height: 40px;<br>
+	             color: white;<br>
+	             text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);<br>
+	             text-align: right;<br>
+	             letter-spacing: 1px;<br>
+	             }</p>
+	           <p>/* Clear floats */<br>
+	             .keys, .top {overflow: hidden;}</p>
+	           <p>/* Applying same to the keys */<br>
+	             .keys span, .top span.clear {<br>
+	             float: left;<br>
+	             position: relative;<br>
+	             top: 0;<br>
+  <br>
+	             cursor: pointer;<br>
+  <br>
+	             width: 66px;<br>
+	             height: 36px;<br>
+  <br>
+	             background: white;<br>
+	             border-radius: 3px;<br>
+	             box-shadow: 0px 4px rgba(0, 0, 0, 0.2);<br>
+  <br>
+	             margin: 0 7px 11px 0;<br>
+  <br>
+	             color: #888;<br>
+	             line-height: 36px;<br>
+	             text-align: center;<br>
+  <br>
+	             user-select: none;<br>
+  <br>
+	             transition: all 0.2s ease;<br>
+	             }</p>
+	           <p>/* Remove right margins from operator keys */<br>
+	             /* style different type of keys (operators/evaluate/clear) differently */<br>
+	             .keys span.operator {<br>
+	             background: #C2FDFF;<br>
+	             margin-right: 0;<br>
+	             }</p>
+	           <p>.keys span.eval {<br>
+	             background: #0B99A5;<br>
+	             box-shadow: 0px 4px #585558;<br>
+	             color: #FFF;<br>
+	             }</p>
+	           <p>.top span.clear {<br>
+	             background: #0B99A5;<br>
+	             box-shadow: 0px 4px #585558;<br>
+	             color: #FFF;<br>
+	             }</p>
+	           <p>/* Some hover effects */<br>
+	             .keys span:hover {<br>
+	             background: #9c89f6;<br>
+	             box-shadow: 0px 4px #6b54d3;<br>
+	             color: white;<br>
+	             }</p>
+	           <p>.keys span.eval:hover {<br>
+	             background: #46D6B9;<br>
+	             box-shadow: 0px 4px #585558;<br>
+	             color: #ffffff;<br>
+	             }</p>
+	           <p>.top span.clear:hover {<br>
+	             background: #499AE6;<br>
+	             box-shadow: 0px 4px #585558;<br>
+	             color: #FFF;<br>
+	             }</p>
+	           <p>/* Simulating &quot;pressed&quot; effect on active state of the keys by removing the box-shadow and moving the keys down a bit */<br>
+	             .keys span:active {<br>
+	             box-shadow: 0px 0px #6b54d3;<br>
+	             top: 4px;<br>
+	             }</p>
+	           <p>.keys span.eval:active {<br>
+	             box-shadow: 0px 0px #717a33;<br>
+	             top: 4px;<br>
+	             }</p>
+	           <p>.top span.clear:active {<br>
+	             top: 4px;<br>
+	             box-shadow: 0px 0px #d3545d;<br>
+	             }</p>
                                <a class="art-button" href="register1.aspx" style="margin-left: 182px;">Copy to Clipboard</a>
                                 
 	        </div>
 	    </div> <!--.story-->
 	</div> <!--#third-->
 	
-	<div id="fifth">
+	<div id="fourth">
 		<div class="story">
-		    <p>&nbsp;</p>
-</div> <!--.story-->
+	    	<div>
+	
+        JS GOES HERE
+          <a class="art-button" href="register1.aspx" style="margin-left: 182px;">Copy to Clipboard</a>
+
+
+
+	        </div>
+	    </div> 
 	</div> <!--#fifth-->
 </body>
 <!-- PrefixFree -->
