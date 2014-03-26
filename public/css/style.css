@@ -177,6 +177,9 @@ color: #FFF;
 	overflow: hidden;
 	padding: 0;
 }
+#secon p {
+	font-size:13px;
+}
 
 #second .bg{
 	background: url(images/trainers.png) 50% 0 no-repeat fixed;
