@@ -196,7 +196,7 @@ color: #FFF;
 #third{
 	background: url(images/thirdBG.jpg) 50% 0  fixed;
 	color: white;
-	height: 9713px;
+	height: 2095px;
 	padding: 0;	
 }
 #third ul>li{
@@ -207,7 +207,7 @@ color: #FFF;
 #fourth{
 	background: url(images/secondBG.jpg) 50% 0 fixed;
 	color: white;
-	height: 670px;
+	height: 1261px;
 	margin: 0 auto;
 	overflow: hidden;
 	padding: 0;
@@ -222,6 +222,10 @@ color: #FFF;
 	min-width: 980px;
 	/*overflow: auto;*/
 	width: 980px;
+}
+
+.story p {
+	font-size:12px;
 }
 
 .story .float-left, .story .float-right{
